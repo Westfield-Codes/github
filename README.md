@@ -23,14 +23,11 @@ There are many ways to edit files using Github.  Direct editing via the repo is 
 
 ### Cloning and forking 
 
-When you create a repository it exists remotely outside of your local machine. You can clone a repository to create a local copy on your computer and then use Git to sync the two. You can clone a repository from GitHub to your local computer to make it easier to fix issues, add or remove files, and push larger commits. You can also use an IDE or editing tool of your choice as opposed to the GitHub UI. When you clone a repository, you copy the repository from GitHub to your local machine.
-
-Cloning a repository pulls down a full copy of all the repository data that GitHub has at that point in time, including all versions of every file and folder for the project.
+You can clone a repository to create a local copy on your computer (or on Codespaces) and then use Git to sync the two. Forking a repo is like cloning, except that it is a connection that allows updating. 
+1. **Cloning** a repository pulls down a full copy of all the repository data that GitHub has at that point in time, including all versions of every file and folder for the project.
 Read more about cloning here. 
-
-A fork is another way to copy a repository, but is most commonly used when contributing to someone else’s project. Forking a repository allows you to freely experiment with changes without affecting the original project and is very popular when contributing to open source software projects.
-
-When we work with GitHub Classroom, you fork a "template repo" to your own copy to edit.  You can simply submit it, or (if it is a collaborative assignment) add a pull request to contribute it to the class. 
+2. **Forking** is another way to copy a repository, but is most commonly used when contributing to someone else’s project. Forking a repository allows you to freely experiment with changes without affecting the original project and is very popular when contributing to open source software projects.
+3. **Assignments**: When you work with GitHub Classroom, you fork a "template repo" to your own copy to edit.  You can simply submit it, or (if it is a collaborative assignment) add a pull request to contribute it to the class. 
 
 Read more about forking [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
 
