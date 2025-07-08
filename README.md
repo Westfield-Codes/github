@@ -14,23 +14,30 @@ A repository is where your project work happens. It contains all of your project
 
 Repositories contain README’s that introduce each project.  When you create a new project, always add a README. :smile:   Read more about repositories [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/about-repositories) and repository README’s [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/about-readmes). 
 
-## :octocat: Understanding the GitHub flow 
+## :octocat: Understanding the Git workflow 
 
-There are many ways to edit files using Github.  Direct editing via the repo is the most dangerous (since you are commiting changes without testing them) and should only be one for quick fixes you are sure of. Here are other methods: 
+The Git workflow allows you to experiment and collaborate on your projects easily, without the risk of losing your previous work. There are many ways to edit files using Github.  Direct editing via the repo is the most dangerous (since you are commiting changes without testing them) and should only be one for quick fixes you are sure of. Here are other methods: 
 
-1. **CodeSpaces**: Open Codespaces from the green Code button, Codespaces tab. When a .devcontainer.json file (like the one here) is included, you can run HTML and CSS files without having to install the Live Preview extension, which is quite handy. And there is a commit to repo button - but **always include a commit message** or it breaks. 
+1. **CodeSpaces**: Open Codespaces from the green Code button, Codespaces tab. When a .devcontainer.json file (like the one here) is included, you can run HTML and CSS files without having to install the Live Preview extension, which is quite handy. And there is the Git Workflow commit-to-repo button (see below) - but **always include a commit message** or it breaks. 
 1. **Notepad++**: You can download a .zip of your files, extract them (Important!) and then edit them individually with Notepad++ (pin it to your Taskbar). But you have to manually upload them back to the repo at the end of each class, and keep your downloads empty so you do not overwrite files.  This is our "backup" method if Codespaces has problems. 
-1. **VSCode++**: This offers the best of both worlds: local files, a rich coding environment, and button-driven connections to GitHub.  However, it requires some fancy configuration up front, so we do not start with this method. 
+1. **VSCode++**: This offers the best of both worlds: local files, a rich coding environment, and button-driven connections to GitHub that use the Git Workflow.  However, it requires some fancy configuration up front, so we do not start with this method.
 
-### Cloning and forking 
+### Committing and pushing ###
+
+Committing and pushing are how you can add the changes you made on your local machine to the remote repository in GitHub. That way your instructor and/or teammates can see your latest work when you’re ready to share it. You can make a commit when you have made changes to your project that you want to “checkpoint.” You can also add a helpful commit message to remind yourself or your teammates what work you did (e.g. “Added a README with information about our project”).
+
+Once you have a commit or multiple commits loaded up to add to your repository (you might say, "in the chamber" or "chambered"), you can use the push command to add those changes to your remote repository ("pull the trigger"). Committing and pushing may feel new at first, but we promise you’ll get used to it 🙂
+
+### Cloning vs forking 
 
 You can clone a repository to create a local copy on your computer (or on Codespaces) and then use Git to sync the two. Forking a repo is like cloning, except that it is a connection that allows updating. 
+
 1. **Cloning** a repository pulls down a full copy of all the repository data that GitHub has at that point in time, including all versions of every file and folder for the project.
 Read more about cloning here. 
 2. **Forking** is another way to copy a repository, but is most commonly used when contributing to someone else’s project. Forking a repository allows you to freely experiment with changes without affecting the original project and is very popular when contributing to open source software projects.
 3. **Assignments**: When you work with GitHub Classroom, you fork a "template repo" to your own copy to edit.  You can simply submit it, or (if it is a collaborative assignment) add a pull request to contribute it to the class. 
 
-Read more about forking [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
+Read more about cloning and forking [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
 
 ### Pull requests
 
