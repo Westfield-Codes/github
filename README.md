@@ -17,9 +17,9 @@ Repositories contain README’s that introduce each project.  When you create a 
 ## :octocat: Understanding the GitHub flow 
 
 There are many ways to edit files using Github.  Direct editing via the repo is the most dangerous (since you are commiting changes without testing them) and should only be one for quick fixes you are sure of. Here are other methods: 
-1.**CodeSpaces**: Open Codespaces from the green Code button, Codespaces tab. When a .devcontainer.json file (like the one here) is included, you can run HTML and CSS files without having to install the Live Preview extension, which is quite handy. And there is a commit to repo button - but **always include a commit message** or it breaks. 
-1.**Notepad++**: You can download a .zip of your files, extract them (Important!) and then edit them individually with Notepad++ (pin it to your Taskbar). But you have to manually upload them back to the repo at the end of each class, and keep your downloads empty so you do not overwrite files.  This is our "backup" method if Codespaces has problems. 
-1.**VSCode++**: This offers the best of both worlds: local files, a rich coding environment, and button-driven connections to GitHub.  However, it requires some fancy configuration up front, so we do not start with this. 
+1. **CodeSpaces**: Open Codespaces from the green Code button, Codespaces tab. When a .devcontainer.json file (like the one here) is included, you can run HTML and CSS files without having to install the Live Preview extension, which is quite handy. And there is a commit to repo button - but **always include a commit message** or it breaks. 
+1. **Notepad++**: You can download a .zip of your files, extract them (Important!) and then edit them individually with Notepad++ (pin it to your Taskbar). But you have to manually upload them back to the repo at the end of each class, and keep your downloads empty so you do not overwrite files.  This is our "backup" method if Codespaces has problems. 
+1. **VSCode++**: This offers the best of both worlds: local files, a rich coding environment, and button-driven connections to GitHub.  However, it requires some fancy configuration up front, so we do not start with this method. 
 
 ### Cloning and forking 
 
